@@ -1,0 +1,7 @@
+{
+  "name": "rspack-rebuildmodule-lost-callback",
+  "private": true,
+  "scripts": { "repro": "node repro.cjs" },
+  "dependencies": { "@rspack/core": "2.3.2" },
+  "devDependencies": { "webpack": "5.112.2" }
+}
