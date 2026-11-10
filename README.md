@@ -1,6 +1,6 @@
 # rspack: `rebuildModule` callback never called
 
-Issue: (link added once filed)
+Issue: https://github.com/web-infra-dev/rspack/issues/16567
 
 `compilation.rebuildModule(module, callback)` called from `finishMake` never calls `callback` when the module
 starts or stops matching a rule, or when two modules are rebuilt in one tick and one rebuild drops the other.
